@@ -45,6 +45,7 @@ function App() {
 
       if(data === "Nothing")
       {
+        setCaseData([])
         setNothingFound(true)
         return
       }
